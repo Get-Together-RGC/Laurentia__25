@@ -59,7 +59,12 @@ footer {
   border-radius: 50%; /* circle */
   background-color: transparent;
 }
-
+.gallery-item video {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 /* Gallery */
 .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
